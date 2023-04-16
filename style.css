@@ -1,0 +1,32 @@
+/*General page styling*/
+
+body{
+    background-image: url("images/fpcodeo7.png");
+    background-repeat: repeat;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    font-family: "Typewriter Inked";
+}
+
+#fplogo{
+    width: 650px;
+    height: 475px;
+}
+
+#homemain{
+    display: flex;
+    justify-content: center;
+}
+
+#welcomeText{
+    text-align: center;
+}
