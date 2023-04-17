@@ -3,6 +3,7 @@
 body{
     background-image: url("images/fpcodeo7.png");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 
@@ -80,4 +81,63 @@ a{
 #abtMePicDiv{
     display: flex;
     justify-content: center;
+}
+
+/*PROJECTS*/
+
+.fpclipart{
+    width: 350px;
+}
+
+#projectsDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#projectLine{
+    font-family: "Typewriter Inked";
+    text-align: center;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+}
+
+.pjImg{
+    display: flex;
+    flex-direction: column;
+}
+
+/*CONTACT ME*/
+
+#fpcutelaptop{
+    width: 500px;
+}
+
+#contactDiv{
+
+
+}
+
+#contactImgDiv{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+}
+#contactButtDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
