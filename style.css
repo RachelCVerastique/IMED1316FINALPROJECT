@@ -10,11 +10,24 @@ body{
 nav{
     display: flex;
     justify-content: center;
+    font-family: "Typewriter Inked";
 }
 
 .header{
     text-align: center;
     font-family: "Typewriter Inked";
+    font-size: 50px;
+}
+
+.buttons{
+    font-family: "Typewriter Inked";
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px 12px;
 }
 
 #fplogo{
@@ -29,4 +42,42 @@ nav{
 
 #welcomeText{
     text-align: center;
+    font-family: "Typewriter Inked";
+    font-size: 25px;
+}
+
+.navButtons{
+    font-family: "Typewriter Inked";
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#fpme{
+    width: 400px;
+}
+
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#abtMeText{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#abtMePicDiv{
+    display: flex;
+    justify-content: center;
 }
