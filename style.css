@@ -12,12 +12,15 @@ nav{
     display: flex;
     justify-content: center;
     font-family: "Typewriter Inked";
+    margin-bottom: 25px;
 }
 
 .header{
     text-align: center;
     font-family: "Typewriter Inked";
     font-size: 50px;
+    /*margin-bottom: 0px;*/
+    margin-top: 50px;
 }
 
 .buttons{
@@ -54,13 +57,18 @@ nav{
     background-color: white;
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
-    padding: 10px 12px;
+    border: 1px solid black;
+    padding: 1px 10px 1px 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+
 }
 
 a{
     text-decoration: none;
 }
+
+/* -------------------------------------about me----------------------------------- */
 
 #fpme{
     width: 400px;
@@ -83,7 +91,7 @@ a{
     justify-content: center;
 }
 
-/*PROJECTS*/
+/*---------------------------------PROJECTS -------------------------------------*/
 
 .fpclipart{
     width: 350px;
@@ -119,7 +127,7 @@ a{
     flex-direction: column;
 }
 
-/*CONTACT ME*/
+/*-----------------------CONTACT ME ---------------------------------------------------*/
 
 #fpcutelaptop{
     width: 500px;
