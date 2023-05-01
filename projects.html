@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">Projects</header>
+    <header class="header headerText">Projects</header>
     <nav>
-        <button class="navButtons"><a href="index.html">Home</a></button>
-        <button class="navButtons"><a href="aboutme.html">About Me</a></button>
-        <button class="navButtons"><a href="contactme.html">Contact Me</a></button>
+        <button  class="navButtons" onclick="document.location='index.html'">Home</button>
+        <button  class="navButtons" onclick="document.location='aboutme.html'">About Me</button>
+        <button  class="navButtons" onclick="document.location='contactme.html'">Contact Me</button>
     </nav>
 
     <h2 id="projectLine">Here are some projects I have done myself and
@@ -24,9 +25,9 @@
             <div class="pjImg">
                 <img class="fpclipart" src="images/fpclipart.png" alt="clip art">
             </div>
-            <div class="projectText">
-                <h3><a href="https://github.com/ComicStans/axby">Gamerz Corner</a></h3>
-                <p>
+            <div class="projectDescription">
+                <h3 class="projectTitle"><a href="https://github.com/ComicStans/axby">Gamerz Corner</a></h3>
+                <p class="projectText">
                     Project Gamerz Corner is a full-stack social networking application that also utilizes
                     an Application Programming Interface. The purpose of Gamerz Corner is to bring
                     the gaming community together to socialize as well as have a platform to organize
@@ -43,9 +44,9 @@
             <div class="pjImg">
                 <img class="fpclipart" src="images/fpclipart.png" alt="clip art">
             </div>
-            <div class="projectText">
-                <h3><a href="https://github.com/RachelCVerastique/elixir-rest-blog">Restblog Project</a></h3>
-                <p>
+            <div class="projectDescription">
+                <h3 class="projectTitle"><a href="https://github.com/RachelCVerastique/elixir-rest-blog">Restblog Project</a></h3>
+                <p class="projectText">
                     Restblog is a full-stack single-page application using MariaDB and MySQL for
                     database storage. This application allows users to register, login, and create posts
                     as well as edit and delete a post.
@@ -57,9 +58,9 @@
             <div class="pjImg">
                 <img class="fpclipart" src="images/fpclipart.png" alt="clip art">
             </div>
-            <div class="projectText">
-                <h3><a href="https://github.com/RachelCVerastique/movies-api">Movie Project</a></h3>
-                <p>
+            <div class="projectDescription">
+                <h3 class="projectTitle"><a href="https://github.com/RachelCVerastique/movies-api">Movie Project</a></h3>
+                <p class="projectText">
                     The Movies project was a single-page application developed using paired
                     programming. The movies project utilizes a mock database as well as the Open
                     Movie Database API. A visitor to the page can add, edit, rate, and delete movies.
@@ -73,9 +74,9 @@
             <div class="pjImg">
                 <img class="fpclipart" src="images/fpclipart.png" alt="clip art">
             </div>
-            <div class="projectText">
-                <h3><a href="https://github.com/RachelCVerastique/codeup-web-exercises/blob/main/weather_map.html">Weather Map Project</a></h3>
-                <p>
+            <div class="projectDescription">
+                <h3 class="projectTitle"><a href="https://github.com/RachelCVerastique/codeup-web-exercises/blob/main/weather_map.html">Weather Map Project</a></h3>
+                <p class="projectText">
                     The weather map project was independently built and uses the OpenWeatherMap
                     and Mapbox APIs. This application allows users to acquire a five-day weather
                     forecast based on the desired location using a dynamic weather map with markers
@@ -92,9 +93,9 @@
             <div class="pjImg">
                 <img class="fpclipart" src="images/fpclipart.png" alt="clip art">
             </div>
-            <div class="projectText">
-                <h3><a href="https://github.com/Coffee-Project-Rachel-and-Micah/coffee-project">Coffee Project</a></h3>
-                <p>
+            <div class="projectDescription">
+                <h3 class="projectTitle"><a href="https://github.com/Coffee-Project-Rachel-and-Micah/coffee-project">Coffee Project</a></h3>
+                <p class="projectText">
                     Collaborated with a partner to create a coffee directory which permits customers
                     ease of use in searching by name and roast types. This application allows for
                     addition of new products as well as predictive text using active filtration. The
@@ -111,5 +112,7 @@
         <i>icon</i>
         <i>icon</i>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

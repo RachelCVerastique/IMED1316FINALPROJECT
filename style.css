@@ -16,12 +16,18 @@ nav{
 }
 
 .header{
-    text-align: center;
+    /*text-align: center;*/
     font-family: "Typewriter Inked";
     font-size: 50px;
-    /*margin-bottom: 0px;*/
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
 }
+
+/*.headerText{*/
+/*    width: 51%;*/
+/*}*/
 
 .buttons{
     font-family: "Typewriter Inked";
@@ -32,6 +38,13 @@ nav{
     display: inline-block;
     border: 2px solid black;
     padding: 10px 12px;
+}
+
+.buttons:hover {
+    color: white;
+    /*font-size: 25px;*/
+    background-color: rgb(57, 17, 109);
+    transition-duration: 0.4s;
 }
 
 #fplogo{
@@ -61,17 +74,77 @@ nav{
     padding: 1px 10px 1px 10px;
     margin-right: 25px;
     margin-left: 25px;
+}
 
+.navButtons:hover {
+    color: white;
+    /*font-size: 25px;*/
+    background-color: rgb(57, 17, 109);
+    transition-duration: 0.4s;
 }
 
 a{
     text-decoration: none;
+    outline: none;
+    border: 0;
 }
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(57, 17, 109);
+}
+
+.projectTitle:hover{
+    font-size: 25px;
+}
+
+.headerText:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: 2;
+}
+
+.buttons:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/*---------------------------------------- index ----------------------------------*/
+
+#welcomeText{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
 
 /* -------------------------------------about me----------------------------------- */
 
 #fpme{
     width: 400px;
+    border-radius: 100%;
+    border: 10px solid rgb(57, 17, 109);
 }
 
 #aboutMe{
@@ -82,13 +155,19 @@ a{
 
 #abtMeText{
     margin: auto;
-    width: 50%;
+    width: 75%;
     padding: 10px;
 }
 
 #abtMePicDiv{
     display: flex;
     justify-content: center;
+}
+
+.bio{
+    font-family: "Victoria Typewriter";
+    text-align: center;
+    font-size: 25px;
 }
 
 /*---------------------------------PROJECTS -------------------------------------*/
@@ -110,14 +189,17 @@ a{
     padding: 10px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 25px;
 }
 
 #projectLine{
     font-family: "Typewriter Inked";
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 65px;
 }
 
-.projectText{
+.projectDescription{
     display: flex;
     flex-direction: column;
 }
@@ -127,6 +209,14 @@ a{
     flex-direction: column;
 }
 
+.projectText{
+    font-family: "CF Remington Typewriter";
+    font-size: 20px;
+}
+
+.projectTitle{
+    font-family: "Typewriter Inked";
+}
 /*-----------------------CONTACT ME ---------------------------------------------------*/
 
 #fpcutelaptop{
@@ -134,18 +224,50 @@ a{
 }
 
 #contactDiv{
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 #contactImgDiv{
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     justify-content: center;
+    margin-left: -90px;
 }
 #contactButtDiv{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: -90px;
+    width: 50%;
+    margin-left: -100px;
+}
+
+#contactText{
+    text-align: center;
+    font-size: 23px;
+    font-family: "Typewriter Inked";
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+/*----------------------------------modal----------------------------------*/
+
+label{
+    font-family: "Typewriter Inked";
+}
+
+input{
+    border: black;
+}
+
+.modal-body{
+    font-family: "Typewriter Inked";
+}
+
+.modal-title{
+    font-family: "Typewriter Inked";
 }
