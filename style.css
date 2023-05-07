@@ -1,3 +1,14 @@
+@media only screen and (min-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
 /*General page styling*/
 
 body{
@@ -170,6 +181,12 @@ a:visited{
     font-size: 25px;
 }
 
+
+#fpme:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 /*---------------------------------PROJECTS -------------------------------------*/
 
 .fpclipart{
@@ -216,6 +233,19 @@ a:visited{
 
 .projectTitle{
     font-family: "Typewriter Inked";
+}
+
+.icons{
+    width: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+#iconDiv{
+    display: flex;
+    justify-content: center;
+
 }
 /*-----------------------CONTACT ME ---------------------------------------------------*/
 
@@ -270,4 +300,17 @@ input{
 
 .modal-title{
     font-family: "Typewriter Inked";
+}
+
+/*alert*/
+
+#liveAlertPlaceholder{
+    width: 25%;
+    font-family: "Typewriter Inked";
+    background-color: white;
+}
+
+#alert{
+    display: flex;
+    justify-content: center;
 }
