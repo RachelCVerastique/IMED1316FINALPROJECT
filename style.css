@@ -22,13 +22,13 @@ body{
 nav{
     display: flex;
     justify-content: center;
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     margin-bottom: 25px;
 }
 
 .header{
     /*text-align: center;*/
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     font-size: 50px;
     margin-top: 50px;
     display: flex;
@@ -41,7 +41,7 @@ nav{
 /*}*/
 
 .buttons{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     font-size: 20px;
     border-radius: 8px;
     background-color: white;
@@ -70,12 +70,12 @@ nav{
 
 #welcomeText{
     text-align: center;
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     font-size: 25px;
 }
 
 .navButtons{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     font-size: 20px;
     border-radius: 8px;
     background-color: white;
@@ -176,7 +176,7 @@ a:visited{
 }
 
 .bio{
-    font-family: "Victoria Typewriter";
+    font-family: "Victoria Typewriter", serif;
     text-align: center;
     font-size: 25px;
 }
@@ -210,7 +210,7 @@ a:visited{
 }
 
 #projectLine{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 65px;
@@ -227,12 +227,12 @@ a:visited{
 }
 
 .projectText{
-    font-family: "CF Remington Typewriter";
+    font-family: "CF Remington Typewriter", serif;
     font-size: 20px;
 }
 
 .projectTitle{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
 }
 
 .icons{
@@ -279,7 +279,7 @@ a:visited{
 #contactText{
     text-align: center;
     font-size: 23px;
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     width: 50%;
     margin-bottom: 15px;
 }
@@ -287,7 +287,7 @@ a:visited{
 /*----------------------------------modal----------------------------------*/
 
 label{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
 }
 
 input{
@@ -295,18 +295,18 @@ input{
 }
 
 .modal-body{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
 }
 
 .modal-title{
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
 }
 
 /*alert*/
 
 #liveAlertPlaceholder{
     width: 25%;
-    font-family: "Typewriter Inked";
+    font-family: "Typewriter Inked", serif;
     background-color: white;
 }
 
